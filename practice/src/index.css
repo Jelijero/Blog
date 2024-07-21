@@ -1,0 +1,323 @@
+.full{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background:#000;
+    
+    
+}
+
+
+.full1>h1{
+    position: absolute;
+    top: 23%;
+    left: 28%;
+    font-size: 700%;
+    color:purple;
+    text-shadow: 0.2rem 0.2rem 0.3rem white;
+}
+.full1>h1:hover{
+  text-shadow: 0.3rem 0.3rem 0.4rem white;
+}
+
+
+.full1>h5{
+    position: absolute;
+    top: 46%;
+    left: 34%;
+    font-size:200%;
+    color:white;
+    font-style: italic;
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+}
+
+.details{
+  top: 4%;
+  left: 20%; 
+  display: inline-block;
+  outline: 0;
+  border:0;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  color: #000;
+  background: #fff;
+  line-height: 30px;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  box-shadow: purple -2px -2px 0px 2px, white 0px 0px 0px 4px, purple 0px 0px 2px 7px;
+  box-shadow: 0.1rem 0.1rem 0.3rem white;
+
+ 
+  
+
+}
+.details:hover{
+  transform: scale(1.01)
+}
+
+
+.detail{
+  position: absolute;
+  top: 68%;
+  left: 43%;
+  font-size: 200%;
+  text-decoration: none;
+  color:white;
+  z-index: 3;
+  padding: 10px 13px 10px 12px;
+  border-style: solid;
+  border-color:white;
+
+  box-shadow: 0.07rem 0.4rem 0.3rem white;
+
+}
+
+.detail:hover{
+  background:linear-gradient(purple,white);
+  color: black;
+  font-style: oblique;
+  box-shadow: none;
+ 
+}
+
+.main{
+    position: absolute;
+    position:fixed;
+    top: 20%;
+    height: 80%;
+    width: 110%;
+    left: 0.5%;
+    
+    display: flex;
+    flex-flow: column;
+    gap: 50%;
+    overflow:hidden;
+    overflow-y:scroll;
+    
+    
+  }
+  .blog{
+    position: absolute;
+    height: 74%;
+    left: 12%;
+    width: 90%;
+  
+    
+    overflow: hidden;
+
+    
+  
+  }
+  
+ 
+
+  .title{
+    position: absolute;
+    left: 1%;
+    top: 14%;
+    height: 50%;
+    width: 80%;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: -4%;
+    background:#FFF3C7;
+    border-radius:30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    box-shadow: 0.1rem 0.1rem 0.3rem black;
+    text-shadow: 0.05rem 0.05rem 0.08rem black;
+  }
+  .name{
+    position: absolute;
+    top:65%;
+    left:70%;
+    font-size: 50%;
+    font-style: italic;
+
+  }
+  
+ .form1{
+  position: absolute;
+  top: 30%;
+  background-color: #cbd2d7;
+  height: 60%;
+  width: 40%;
+  left: 29%;
+  box-shadow: 0.1rem 0.1rem 0.7rem black;
+  border-radius:10%;
+ 
+  z-index: 2;
+ 
+}
+
+  .form{
+    position: absolute;
+    top: 15%;
+    background-color: #cbd2d7;
+    height: 80%;
+    width: 40%;
+    left: 29%;
+    box-shadow: 0.1rem 0.1rem 0.7rem black;
+    border-radius:10%;
+    animation-name: drop;
+    animation-duration: 0.8s;
+    z-index: 3;
+   
+  }
+
+  @keyframes drop{
+    0%{
+      top:-100%;
+    }
+    50%{
+      top: 25%;
+    
+    }
+    60%{
+      top: 20%;
+    }
+  
+    100%{
+      top: 25%;
+    }
+  }
+  .search{
+    position: absolute;
+    top: 14%;
+    left: 60%;
+    width: 200px; /* Set the width */
+    padding: 5px; /* Add some padding */
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; 
+    outline: none; 
+    z-index: 2;
+  }
+  .search:focus {
+    border-color:white;
+    box-shadow: 0 0 5px white; 
+  }
+  .search1{
+    position: absolute;
+    top: 14%;
+    left: 78%;
+    width: 200px; /* Set the width */
+    padding: 5px; /* Add some padding */
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; 
+    outline: none; 
+    z-index: 2;
+  }
+  .search1:focus {
+    border-color:white;
+    box-shadow: 0 0 5px white; 
+  }
+  .form>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+
+  }
+ .form>form label{
+  font-size: 150%;
+  margin-top: 2%;
+  margin-bottom:1%;
+  margin-left: -20%;
+ }
+
+.form>form input {
+  width: 300px; /* Set the width */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  font-size: 16px; 
+  outline: none; 
+  z-index: 2;
+}
+
+
+.form>form input:focus {
+  border-color:black;
+  box-shadow: 0 0 5px black; 
+}
+
+
+.form>form input::placeholder{
+  color: #aaa; 
+}
+
+.form>form textarea {
+  width: 300px; /* Set the width */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  font-size: 16px; 
+  outline: none; 
+  z-index: 2;
+  
+}
+.form>form textarea:focus {
+  border-color:black;
+  box-shadow: 0 0 5px black; 
+}
+
+/* Styling for the button */
+.form>form button {
+  padding: 10px 20px; /* Add padding */
+  background-color:cornsilk; /* Set background color */
+  color:black; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add pointer cursor */
+  font-size: 16px; 
+  margin-top: 2%;
+  box-shadow: 0.1rem 0.1rem 0.3rem black;
+  z-index: 2;/* Set font size */
+}
+
+/* Styling for when the button is hovered */
+.form>form button:hover {
+  background-color:black; 
+  color: white;
+}
+
+/* Styling for when the button is focused */
+.form>form button:focus {
+  outline: none; /* Remove outline */
+  box-shadow: 0 0 5px #007bff; /* Add box shadow */
+}
+
+.main1{
+  position: absolute;
+  
+  top: 20%;
+  height: 80%;
+  width: 110%;
+  left: 0.5%;
+  z-index: 12;
+  display: flex;
+  flex-flow: column;
+  gap: 50%;
+  overflow:hidden;
+  overflow-y:scroll;
+  
+  
+}
+
+.new{
+  position: fixed;
+  background-color: #cbd2d7;
+  
+  z-index: 4;
+}
